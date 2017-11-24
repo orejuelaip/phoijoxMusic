@@ -1,6 +1,6 @@
 <template lang="pug">
  #app
-  img(src='https://orejuelaip.github.io/phoijoxMusic/dist/logo.png')
+  img(src='https://github.com/orejuelaip/phoijoxMusic/blob/master/dist/logo.png')
   h1  PhoijoxMusic
   select(v-model="selectedCountries")
     option( v-for="country in countries"  :value="country.value") {{ country.name }}
